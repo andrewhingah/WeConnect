@@ -1,49 +1,47 @@
-<!DOCTYPE html>
+,<!DOCTYPE html>
 <html>
 <head>
-	<title>Business Profile</title>
-	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="../style.css">
-
+    <title>
+        Company Profile
+    </title>
 </head>
 <body>
-	<div class="menu-bar" id="menu">
-		<nav>
-			<ul>
-				<a href="index.html"><li>Homepage</li></a>
-				<a href="signin.html"><li>Sign in</li></a>
-				<a href="signup.html"><li>Sign up</li></a>
-				<a href="createbusin.html"><li>Create Business</li></a>
-				<a href="businprof.html"><li>Business Profile</li></a>
-			</ul>
-		</nav>
-	</div>
 
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12 background-shade">
-				<h2 class="heading">
-					Business Profile
-				</h2>
-				<form action="#">
-			  <div class="form-group">
-			    <label for="email">Business Name:</label>
-			    <input type="email" class="form-control" id="email" placeholder="business name">
-			  </div>
-			  <div class="form-group">
-			    <label for="pwd">Business Category:</label>
-			    <input type="password" class="form-control" id="pwd" placeholder="business category">
-			  </div>
-			  <div class="form-group">
-			    <label for="pwd">Business Location:</label>
-			    <input type="password" class="form-control" id="pwd" placeholder="business location">
-			  </div>
-			
-			 
-			  
-			 
-			</div>
-		</div>		
-	</div>
 </body>
-</html>
+</html><style>
+.logo {
+    font-size: 200px;
+}
+@media screen and (max-width: 768px) {
+    .col-sm-4 {
+        text-align: center;
+        margin: 25px 0;
+    }
+}
+</style>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-8">
+      <h2>About Company Page</h2>
+      
+      <button class="btn btn-default btn-lg">leave a review</button>
+    </div>
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-signal logo"></span>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid bg-grey">
+  <div class="row">
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-globe logo"></span> 
+    </div>
+    <div class="col-sm-8">
+      <h2>Our Values</h2>
+      <h4><strong>MISSION:</strong> Our mission ..</h4> 
+      <p><strong>VISION:</strong> Our vision ..</p>
+    </div>
+  </div>
+</div>
