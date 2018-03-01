@@ -1,7 +1,6 @@
 body{
-    background-image: linear- 
-    gradient (rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url (DSC_0200.JPG);
-    height: 100vh;
+    background-image: url("UI/Images/image1.jpg");
+    height: 100%;
     background-size: cover;
     background-position: center;
 }
@@ -9,4 +8,24 @@ body{
     width: 360px;
     padding: 10%,0,0;
     margin: auto;
+ }
+ .menu-bar ul li{
+ 	display: inline-block;
+ 	background: #92bf9c;
+ 	color: #fff;
+ 	margin: 10px;
+ 	min-width: 150px;
+ 	min-height: 30px;
+ 	padding: 5px;
+ }
+ .heading{
+ 	color: #fff;
+ }
+ .background-shade{
+ 	background: rgba(165, 165, 19, 0.7);
+    border-radius: 34px;
+    padding: 60px;
+ }
+ .register{
+ 	color: #19ff00;
  }
